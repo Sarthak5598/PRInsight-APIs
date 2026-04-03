@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="BuildingBlocks\" />
+    <Folder Include="BuildingBlocks\Common\" />
+    <Folder Include="BuildingBlocks\Database\" />
+    <Folder Include="BuildingBlocks\EventBus\" />
+    <Folder Include="Modules\Accounts\Endpoints\" />
+    <Folder Include="Modules\Accounts\Events\" />
+    <Folder Include="Modules\Accounts\Models\" />
+    <Folder Include="Modules\Accounts\Services\" />
+    <Folder Include="Modules\ProductInsights\Endpoints\" />
+    <Folder Include="Modules\ProductInsights\EventHandlers\" />
+    <Folder Include="Modules\ProductInsights\Events\" />
+    <Folder Include="Modules\ProductInsights\Models\" />
+    <Folder Include="Modules\ProductInsights\Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="12.1.1" />
+    <PackageReference Include="Serilog.AspNetCore" Version="10.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.1.7" />
+  </ItemGroup>
+
+</Project>

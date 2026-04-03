@@ -1,0 +1,97 @@
+# =========================
+
+# .NET / C# Build
+
+# =========================
+
+bin/
+obj/
+out/
+
+# User-specific files
+
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / VS Code / Visual Studio
+
+.vs/
+.vscode/
+.idea/
+
+# =========================
+
+# Logs
+
+# =========================
+
+*.log
+logs/
+
+# =========================
+
+# OS files
+
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+
+# Environment files
+
+# =========================
+
+.env
+.env.*
+appsettings.Development.json
+
+# =========================
+
+# NuGet
+
+# =========================
+
+*.nupkg
+*.snupkg
+packages/
+
+# =========================
+
+# Test results
+
+# =========================
+
+TestResults/
+*.trx
+
+# =========================
+
+# Coverage
+
+# =========================
+
+coverage/
+*.coverage
+*.coveragexml
+
+# =========================
+
+# Docker
+
+# =========================
+
+docker-compose.override.yml
+
+# =========================
+
+# Misc
+
+# =========================
+
+*.cache
+*.tmp
+*.temp
