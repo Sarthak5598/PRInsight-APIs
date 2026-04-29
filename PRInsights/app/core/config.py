@@ -8,7 +8,7 @@ class Settings(BaseSettings):
     DEBUG: bool = True
     
     # Database
-    DATABASE_URL: str = "postgresql://postgres:Sarthak@0911@localhost:5433/pr_insights"
+    DATABASE_URL: str = "postgresql://postgres:Sarthak%400911@localhost:5433/pr_insights"
     
     # GitHub
     GITHUB_WEBHOOK_SECRET: str = ""
